@@ -7,7 +7,7 @@
           <value>
             <JupyterConnectionParameters>
               <option name="managed" value="true" />
-              <option name="sdkName" value="rapids-24.12" />
+              <option name="sdkName" value="" />
             </JupyterConnectionParameters>
           </value>
         </entry>
