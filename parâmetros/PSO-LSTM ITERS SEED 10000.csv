@@ -1,7 +1,0 @@
-;Units;Epochs;Batch Size;Activation;Bias;Fitness
-0;193;18;289;softplus;False;0.910332168724216
-1;193;18;289;softplus;False;0.910332168724216
-2;181;76;152;softplus;False;0.8981406730090701
-3;190;36;275;softplus;False;0.8906354678702973
-4;190;36;275;softplus;False;0.8906354678702973
-5;190;36;275;softplus;False;0.8906354678702973

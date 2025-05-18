@@ -61,8 +61,8 @@ for (dataset in datasets) {
     'CAMPUS' = campus,
     'REGIÃO' = regiao,
     'TESTE' = "KPSS",
-    'VALOR DO TESTE' = kpss_resultado,
-    'VALOR CRÍTICO' = kpss_significancia,
+    'VALOR DO TESTE' = round(kpss_resultado, 3),
+    'VALOR CRÍTICO' = round(kpss_significancia, 3),
     'CONCLUSÃO' = kpss_conclusao,
     stringsAsFactors = FALSE
   )
@@ -83,7 +83,7 @@ for (dataset in datasets) {
     'CAMPUS' = campus,
     'REGIÃO' = regiao,
     'TESTE' = "Man Kenndall",
-    'VALOR DO TESTE' = mk_pvalue,
+    'VALOR DO TESTE' = round(mk_pvalue, 3),
     'VALOR CRÍTICO' = 0.05,
     'CONCLUSÃO' = mk_conclusao,
     stringsAsFactors = FALSE
@@ -106,7 +106,7 @@ for (dataset in datasets) {
     'CAMPUS' = campus,
     'REGIÃO' = regiao,
     'TESTE' = "Kruskal Wallis",
-    'VALOR DO TESTE' = kw_pvalue,
+    'VALOR DO TESTE' = round(kw_pvalue, 3),
     'VALOR CRÍTICO' = 0.05,
     'CONCLUSÃO' = kw_conclusao,
     stringsAsFactors = FALSE
