@@ -74,9 +74,9 @@ for (dataset in datasets) {
   mk_pvalue = mankendall_test$p.value
   
   if (mk_pvalue < 0.05) {
-    mk_conclusao = "Não possui tendência"
+    mk_conclusao = "Rejeita-se H0. Possui tendência"
   } else { 
-    mk_conclusao = "Possui tendência"
+    mk_conclusao = "Não rejeita-se H0. Não Possui tendência"
   }
   
   nova_linha <- data.frame(
@@ -92,7 +92,8 @@ for (dataset in datasets) {
   
   ############################Kruskal-Wallis#############################
   
-  kw_test<-kruskal.test(data$CONSUMO ~ data$ORDEM)
+  data$MES <- factor(month(data$PERIODO)) # Cria um fator para os meses (1 a 12)
+  kw_test <- kruskal.test(data$CONSUMO ~ data$MES) # Testa se as medianas dos meses são diferentes
   kw_pvalue = kw_test$p.value
   print(kw_pvalue)
   
