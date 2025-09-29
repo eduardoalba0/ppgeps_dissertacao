@@ -1,0 +1,2 @@
+N_estimators;Max_depth;Min_samples_split;Min_samples_leaf;Fitness;SEED;MODELO
+15.0;232.0;11.0;4.0;0.246877008396465;7000;PSO-RF

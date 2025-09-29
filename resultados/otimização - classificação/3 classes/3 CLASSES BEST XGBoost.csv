@@ -1,0 +1,2 @@
+OTIMIZADOR;MODELO;CLASSES;SEED;N_estimators;Max_depth;Booster;Lambda;Alpha;Fitness
+PSO;XGBoost;3;5000;45;259;gbtree;0.341;0.76;-0.625
