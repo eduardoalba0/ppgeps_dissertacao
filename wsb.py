@@ -1,17 +1,4 @@
 import numpy as np
-from sklearn.metrics import root_mean_squared_error
-from sklearn.model_selection import train_test_split
-
-def calc_rrmse(y_true, y_pred):
-    y_true = np.array(y_true)
-    y_pred = np.array(y_pred)
-
-    rmse = root_mean_squared_error(y_true, y_pred)
-
-    mean_y_true = np.mean(y_true)
-
-    rrmse = rmse / mean_y_true
-    return rrmse
 
 class WSB:
     def __init__(self, strong_predictor=None, weak_predictors=None, weight_g=1.0):

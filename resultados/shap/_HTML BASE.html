@@ -11181,7 +11181,7 @@
                             r.append("stop").attr("offset", "0%").attr("stop-color", t).attr("stop-opacity", .6), r.append("stop").attr("offset", "100%").attr("stop-color", t).attr("stop-opacity", 0);
                             var a = e.svg.append("linearGradient").attr("id", "linear-backgrad-" + n).attr("x1", "0%").attr("y1", "0%").attr("x2", "0%").attr("y2", "100%");
                             a.append("stop").attr("offset", "0%").attr("stop-color", t).attr("stop-opacity", .5), a.append("stop").attr("offset", "100%").attr("stop-color", t).attr("stop-opacity", 0)
-                        })), this.tickFormat = ze(",.0f"), this.scaleCentered = De(), this.axis = dn().scale(this.scaleCentered).tickSizeInner(4).tickSizeOuter(0).tickFormat((function (t) {
+                        })), this.tickFormat = ze(",.3f"), this.scaleCentered = De(), this.axis = dn().scale(this.scaleCentered).tickSizeInner(4).tickSizeOuter(0).tickFormat((function (t) {
                             return e.tickFormat(e.invLinkFunction(t))
                         })).tickPadding(-18), window.addEventListener("resize", this.redraw), window.setTimeout(this.redraw, 50)
                     }
