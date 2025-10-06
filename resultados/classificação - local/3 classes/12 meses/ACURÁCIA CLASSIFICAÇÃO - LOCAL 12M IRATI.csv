@@ -1,0 +1,4 @@
+CLASSES;ACC
+MLP;0.75
+RF;0.75
+XGBoost;0.75
