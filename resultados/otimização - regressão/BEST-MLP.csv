@@ -1,2 +1,2 @@
-Hidden Layers;Alpha;Activation;Fitness;SEED;MODELO
-220;0.9787414053993986;relu;0.2270813337813527;10000;PSO-MLP
+OTIMIZADOR;MODELO;SEED;Hidden Layers;Alpha;Activation;Fitness
+PSO;MLP;10000;220;0.979;relu;0.227
