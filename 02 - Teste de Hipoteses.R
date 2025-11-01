@@ -72,7 +72,7 @@ for (dataset in datasets) {
   
   mankendall_test<-mk.test(dts)
   mk_pvalue = mankendall_test$p.value
-  
+
   if (mk_pvalue < 0.05) {
     mk_conclusao = "Rejeita-se H0. Possui tendência"
   } else { 
@@ -82,7 +82,7 @@ for (dataset in datasets) {
   nova_linha <- data.frame(
     'CAMPUS' = campus,
     'REGIÃO' = regiao,
-    'TESTE' = "Man Kenndall",
+    'TESTE' = "Man Kendall",
     'VALOR DO TESTE' = round(mk_pvalue, 3),
     'VALOR CRÍTICO' = 0.05,
     'CONCLUSÃO' = mk_conclusao,
