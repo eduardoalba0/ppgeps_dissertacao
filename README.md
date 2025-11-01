@@ -62,7 +62,7 @@ Para navegar pelos experimentos, utilize a seguinte estrutura de pastas:
 
 1.  Clone este repositório:
     ```bash
-    git clone [https://github.com/eduardoalba0/ppgeps_dissertacao.git](https://github.com/eduardoalba0/ppgeps_dissertacao.git)
+    git clone https://github.com/eduardoalba0/ppgeps_dissertacao.git
     cd ppgeps_dissertacao
     ```
 
