@@ -1,0 +1,2 @@
+OTIMIZADOR;MODELO;CLASSES;SEED;N_estimators;Max_depth;Min_samples_split;Min_samples_leaf;Fitness
+PSO;RF;7;10000;34.0;32.0;5.0;4.0;-0.275
