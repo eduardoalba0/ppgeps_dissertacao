@@ -1,6 +1,6 @@
 # Previsão do Consumo de Eletricidade em Instituições Educacionais: Uma abordagem de Cooperative Ensemble Learning aplicada a modelos de Regressão e Classificação
 ![Status](https://img.shields.io/badge/status-concluído-green)
-![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC_BY--SA_4.0-lightgrey.svg)
+![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC_BY--NC_ND_4.0-lightgrey.svg)
 
 Este repositório documenta os experimentos realizados para a dissertação de mestrado no âmbito do Programa de Pós-Graduação em Engenharia de Produção e Sistemas (PPGEPS) da Universidade Tecnológica Federal do Paraná (UTFPR) campus Pato Branco.
 
