@@ -88,6 +88,7 @@ Para navegar pelos experimentos, utilize a seguinte estrutura de pastas:
 
 ## 📄 Licença
 
-Este trabalho e os materiais associados estão licenciados sob a [Creative Commons 4.0 Internacional (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/).
+Este trabalho e os materiais associados estão licenciados sob a [Creative Commons Atribuição–NãoComercial–SemDeriva-
+ções 4.0 Internacional (CC BY-NC-ND 4.0)](https://https://creativecommons.org/licenses/by-nc-nd/4.0/).
 
-![CC BY-SA 4.0](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
+![CC BY-NC-ND 4.0](https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png)
