@@ -6,6 +6,8 @@ Este repositório documenta os experimentos realizados para a dissertação de m
 
 O foco da pesquisa é a aplicação e avaliação de modelos de aprendizado de máquina para a previsão do consumo de eletricidade em uma instituição educacional *multicampi*, utilizando dados históricos, climáticos e acadêmicos.
 
+A dissertação completa encontra-se no [RIUT - Repositório da UTFPR](https://repositorio.utfpr.edu.br/jspui/handle/1/39138)
+
 ---
 
 ## 🎯 Contexto do Problema
